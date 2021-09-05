@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database>
+  <Users>
+    <User Password="ftJ7CMWrTVrmYbqUTAYJcWqO+6wXOEE1zVQNck47c3A=:6Exi/M5xMcDfqS1pp6R2Cl+tPXwYXhPawHsO6GFt+dc=" Role="ADMIN">admin</User>
+    <User Password="n2+fEfrymc40L4JLNFs3ZPiRV54/Bp3astWLGg624ZU=:vJuQhZZjOGnOdYTnYLHwiMRqC8JP9ZWTkrqHaAWcRv0=" Role="USER">ivana</User>
+  </Users>
+  <AOset>
+    <AO Description="descr" Address="add1" InitValue="19.2" LowLimit="0" HighLimit="15">ao1</AO>
+  </AOset>
+  <DIset>
+    <DI Description="descr" Driver="SD" Address="R" ScanTime="2" OnOffScan="true">di1</DI>
+    <DI Description="descr" Driver="RTD" Address="rtd" ScanTime="1" OnOffScan="true">di23</DI>
+  </DIset>
+  <AIset>
+    <AI Description="descr1" Driver="SD" Address="S" ScanTime="2" OnOffScan="true" LowLimit="-1" HighLimit="1" Units="s">ai1</AI>
+    <AI Description="descr2" Driver="SD" Address="C" ScanTime="2" OnOffScan="false" LowLimit="0" HighLimit="2" Units="s">ai2</AI>
+    <AI Description="descr" Driver="SD" Address="S" ScanTime="1" OnOffScan="true" LowLimit="-10" HighLimit="10" Units="s">ai77777777777</AI>
+  </AIset>
+  <DOset>
+    <DO Description="descr" Address="addr" InitValue="1">di23</DO>
+    <DO Description="desc1" Address="add1" InitValue="0">do1</DO>
+  </DOset>
+  <Alarms>
+    <Alarm Type="HIGH" CriticalValue="0" ActivationTime="" Priority="MEDIUM" Unit="s">18</Alarm>
+  </Alarms>
+</Database>

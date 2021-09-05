@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="SCADAcore.Service.DatabaseManager" CodeBehind="DatabaseManager.svc.cs" %>
